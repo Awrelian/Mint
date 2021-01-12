@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mint</title>
+   <link rel="stylesheet" href="./src/assets/css/style.css">
+   <link rel="stylesheet" href="./src/assets/css/media.css">
+   <link rel="stylesheet" href="./src/assets/css/nav.css">
+   <link rel="stylesheet" href="./src/assets/css/media.css">
+
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   </style>
+</head>
+
+<body>
+   <header class="header" id="header">
+      <div class="container">
+         <div class="header-content">
+            <div class="header__logo">
+               <img src="/src/assets/img/LOGO.png" alt="logo" class="header__logo__img">
+            </div>
+            <div class="header__navigation">
+               <nav class="header__menu">
+                  <ul class="header__menu__list">
+                     <li class="header__menu__list__item"><a class="header__menu__list__item__link" href="#">Work</a>
+                     </li>
+                     <li class="header__menu__list__item"><a class="header__menu__list__item__link" href="#">About</a>
+                     </li>
+                     <li class="header__menu__list__item"><a class="header__menu__list__item__link" href="#">Blog</a>
+                     </li>
+                     <li class="header__menu__list__item"><a class="header__menu__list__item__link" href="#">Contact</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="overlay-navigation">
+               <nav role="navigation">
+                  <ul>
+                     <li><a href="#" data-content="The beginning">Home</a></li>
+                     <li><a href="#" data-content="Curious?">About</a></li>
+                     <li><a href="#" data-content="I got game">Skills</a></li>
+                     <li><a href="#" data-content="Only the finest">Works</a></li>
+                     <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <section class="mobile-header">
+               <a href="#" target="_blank" class="home__a"><img src="/src/assets/img/LOGO.png" alt=""></a>
+               <div class="something">Something Creative</div>
+               <div class="open-overlay">
+                  <span class="bar-top"></span>
+                  <span class="bar-middle"></span>
+                  <span class="bar-bottom"></span>
+               </div>
+            </section>
+         </div>
+         <div class="header__item">
+            <div class="header__text">
+               <div class="header__item__h1">Hello!!!<br>We Are Creative <br> Digital Agency.</div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  <br>labore et
+                  dolore magna aliqua.</p>
+               <a class="button-send">Send message</a>
+            </div>
+            <div class="header__img">
+               <img
+                  src="https://images.unsplash.com/photo-1578151579046-f116df61327d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8eWVsbG93fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="something__yellow" class="header__img"> 
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <section class="gallery">
+         <div class="container">
+            <div class="gallery__h">WORK SHOWCASE</div>
+            <div class="showcase__item">
+               <div class="button js-filter">
+                  <button data-filter="*" class="btn-filter is-active">all</button>
+                  <button data-filter=".filter1" class="btn-filter">Branding</button>
+                  <button data-filter=".filter2" class="btn-filter">ILLUSTRATION</button>
+                  <button data-filter=".filter3" class="btn-filter">WEB</button>
+               </div>
+               <div class="gallery__item">
+                  <ul class="list">
+                     <li class="list__item filter1"><img
+                           src="https://images.unsplash.com/photo-1519285257509-80caa15dc32d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                           alt="image description" /></li>
+                     <li class="list__item filter2"><img
+                           src="https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                           alt="image description" /></li>
+                     <li class="list__item filter1"><img
+                           src="https://images.unsplash.com/photo-1484663548870-2aa675ba38fb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8c29tZXRoaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                           alt="image description" /></li>
+                     <li class="list__item filter2"><img
+                           src="https://images.unsplash.com/photo-1537549603790-54c64b32b848?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvbWV0aGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                           alt="image description" /></li>
+                     <li class="list__item filter2"><img
+                           src="https://images.unsplash.com/photo-1588875942712-67c9a7fbf383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"
+                           alt="image description" /></li>
+                     <li class="list__item filter1"><img
+                           src="https://images.unsplash.com/photo-1598823552758-291b9f734eb2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+                           alt="image description" /></li>
+                     <!-- <li class="list__item filter3"><img src="https://htmlene.co.uk/codepen/thumbs/image30.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter1"><img src="https://htmlene.co.uk/codepen/thumbs/image25.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter2"><img src="https://htmlene.co.uk/codepen/thumbs/image14.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter2"><img src="https://htmlene.co.uk/codepen/thumbs/image16.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter3"><img src="https://htmlene.co.uk/codepen/thumbs/image17.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter3"><img src="https://htmlene.co.uk/codepen/thumbs/image18.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter3"><img src="https://htmlene.co.uk/codepen/thumbs/image27.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter3"><img src="https://htmlene.co.uk/codepen/thumbs/image26.jpg"
+                     alt="image description" /></li>
+               <li class="list__item filter2"><img src="https://htmlene.co.uk/codepen/thumbs/image29.jpg"
+                     alt="image description" /></li> -->
+                  </ul>
+                  <a href="" class="show-more">Show me more</a>
+               </div>
+            </div>
+            <div class="container-partners">
+               <div class="partners__img">
+                  <img src="/src/assets/img/partner_1.png" alt="partners">
+               </div>
+               <div class="partners__img">
+                  <img src="/src/assets/img/partner_2.png" alt="partners">
+               </div>
+               <div class="partners__img">
+                  <img src="/src/assets/img/partner_3.png" alt="partners">
+               </div>
+               <div class="partners__img">
+                  <img src="/src/assets/img/partner_4.png" alt="partners">
+               </div>
+               <div class="partners__img">
+                  <img src="/src/assets/img/partner_5.png" alt="partners">
+               </div>
+               <div class="partners__img">
+                  <img src="/src/assets/img/partner_6.png" alt="partners">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="about-us">
+         <div class="container">
+            <div class="block-title">
+               <h4 class="block-title__title">ABOUT US</h4>
+               <p class="block-title__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt<br>
+                  ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="about-us__wrapper">
+               <div class="about-us__column">
+                  <div class="worker">
+                     <div class="worker__photo"><img class="worker__photo__img"
+                           src="https://images.unsplash.com/photo-1513245543132-31f507417b26?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Y2F0fGVufDB8fDB8&auto=format&fit=crop&w=500&q=60"
+                           alt="xxx"></div>
+                     <div class="worker__content">
+                        <div class="worker__name">Luke Skywalker</div>
+                        <div class="worker__description">Web Designer</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="about-us__column">
+                  <div class="worker">
+                     <div class="worker__photo"><img class="worker__photo__img"
+                           src="https://images.unsplash.com/photo-1533738699159-d0c68059bb61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                           alt="xxx"></div>
+                     <div class="worker__content">
+                        <div class="worker__name">Luke Skywalker</div>
+                        <div class="worker__description">Web Designer</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="about-us__column">
+                  <div class="about-us__content">
+                     <h4>Little About Us</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp
+                        orincididunt ut labore et dolore magna aliqua.</p>
+                     <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="blog">
+         <div class="container">
+            <div class="block-title">
+               <div class="block-title__title">OUR BLOG.</div>
+               <div class="block-title__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt<br>
+                  ut labore et dolore magna aliqua.</div>
+            </div>
+            <div class="blog__wrapper">
+               <div class="blog__item">
+                  <div class="blog__thumbnail">
+                     <img
+                        src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        class="blog__thumbnail__img" alt="">
+                  </div>
+                  <div class="blog__content">
+                     <div class="blog__content__h">SUPER BLOG ARTICLE!</div>
+                     <div class="blog__content__p">Lorem ipsum dolor sit amet, consectetur undo thes tabore <br> et
+                        dolore magna aliqua.</div>
+                     <a href="" class="btn"></a>
+                  </div>
+               </div>
+               <div class="blog__item">
+                  <div class="blog__thumbnail">
+                     <img
+                        src="https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                        class="blog__thumbnail__img" alt="">
+                  </div>
+                  <div class="blog__content">
+                     <div class="blog__content__h">SUPER BLOG ARTICLE!</div>
+                     <div class="blog__content__p">Lorem ipsum dolor sit amet, consectetur undo thes tabore<br> et
+                        dolore magna aliqua.</div>
+                     <a href="" class="btn"></a>
+                  </div>
+               </div>
+               <div class="blog__item">
+                  <div class="blog__thumbnail">
+                     <img
+                        src="https://images.unsplash.com/photo-1465244085115-0c89caa46915?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        class="blog__thumbnail__img" alt="">
+                  </div>
+                  <div class="blog__content">
+                     <div class="blog__content__h">SUPER BLOG ARTICLE!</div>
+                     <div class="blog__content__p">Lorem ipsum dolor sit amet, consectetur undo thes tabore<br> et
+                        dolore magna aliqua.</div>
+                     <a href="" class="btn"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+         </div>
+         </div>
+      </section>
+      <section class="contacts">
+         <div class="container">
+            <div class="block-form">
+               <div class="block-form__title">CONTACT US</div>
+               <p class="block-title__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt<br>
+                  ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="contacts_wrapper">
+               <div class="contact-form">
+                  <div class="contact-form__h"> Send Us Message</div>
+                  <form action="">
+                     <input type="text" placeholder="name" class="contact-form__name">
+                     <input type="email" placeholder="email" class="contact-form__email">
+                     <textarea placeholder="message" class="contact-form__textarea"></textarea>
+                     <button class="button-form">Send message</button>
+                  </form>
+               </div>
+               <div class="contact__map">
+                  <img
+                     src="https://images.unsplash.com/photo-1610388914198-42550749921d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80"
+                     alt="map" class="contact__map__img">
+               </div>
+            </div>
+            <div class="contact-social">
+               <div class="contacts-social__item">
+                  <img src="/src/assets/img/Vector_Smart_Object.png" alt="something" class="contacts_icon">
+                  <a href="" class="contacts-social__item__a">1211 Awesome Avenue,<br>NY USD
+                  </a>
+                  <a href=""></a>
+               </div>
+               <div class="contacts-social__item">
+                  <img src="/src/assets/img/Vector_Smart_Object(1).png" alt="something" class="contacts_icon">
+                  <a href="" class="contacts-social__item__a">+00 123 - 456 -78</a>
+                  <a href="" class="contacts-social__item__a">+00 123 - 456 -78</a>
+               </div>
+               <div class="contacts-social__item">
+                  <img src="/src/assets/img/Vector_Smart_Object(2).png" alt="something" class="contacts_icon">
+                  <a href="" class="contacts-social__item__a">mint@mintmail.com</a>
+                  <a href=""></a>
+               </div>
+            </div>
+            <div class="contacts-social__icons">
+               <a href="" class="contacts-social__icons__item"><img src="/src/assets/img/Shape_1.png" alt=""></a>
+               <a href="" class="contacts-social__icons__item"><img src="/src/assets/img/Shape_2.png" alt=""></a>
+               <a href="" class="contacts-social__icons__item"><img src="/src/assets/img/Shape_3.png" alt=""></a>
+            </div>
+         </div>"
+      </section>
+
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__item">
+            <div class="footer__logo">
+               <img src="/src/assets/img/Logo_2.png" alt="logo">
+               <p class="copyright"> © 2020 - Mint,All Right Reserved</p>
+            </div>
+            <div class="footer__totop">
+               <a href="#Home">BACK TO TOP </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+   <script src="/src/assets/js/script.js"></script>
+   <script src="/src/assets/js/script-nav.js"></script>
+</body>
+
+</html>
